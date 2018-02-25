@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7FDD0B3204347D400A14096 /* ApproximateOneToAll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD081204347D400A14096 /* ApproximateOneToAll.cpp */; };
+		F7FDD0B4204347D400A14096 /* ApproximateOneToAll.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD082204347D400A14096 /* ApproximateOneToAll.h */; };
+		F7FDD0B5204347D400A14096 /* datatypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD083204347D400A14096 /* datatypes.h */; };
+		F7FDD0B6204347D400A14096 /* ExactOneToAll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD084204347D400A14096 /* ExactOneToAll.cpp */; };
+		F7FDD0B7204347D400A14096 /* ExactOneToAll.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD085204347D400A14096 /* ExactOneToAll.h */; };
+		F7FDD0B8204347D400A14096 /* mathutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD086204347D400A14096 /* mathutils.cpp */; };
+		F7FDD0B9204347D400A14096 /* mathutils.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD087204347D400A14096 /* mathutils.h */; };
+		F7FDD0BA204347D400A14096 /* minheap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD088204347D400A14096 /* minheap.hpp */; };
+		F7FDD0BB204347D400A14096 /* UVAtlas.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD08A204347D400A14096 /* UVAtlas.h */; };
+		F7FDD0BC204347D400A14096 /* barycentricparam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD08C204347D400A14096 /* barycentricparam.cpp */; };
+		F7FDD0BD204347D400A14096 /* basemeshinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD08D204347D400A14096 /* basemeshinfo.cpp */; };
+		F7FDD0BE204347D400A14096 /* basemeshinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD08E204347D400A14096 /* basemeshinfo.h */; };
+		F7FDD0BF204347D400A14096 /* callbackschemer.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD08F204347D400A14096 /* callbackschemer.h */; };
+		F7FDD0C0204347D400A14096 /* graphcut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD090204347D400A14096 /* graphcut.cpp */; };
+		F7FDD0C1204347D400A14096 /* graphcut.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD091204347D400A14096 /* graphcut.h */; };
+		F7FDD0C2204347D400A14096 /* imtcomputation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD092204347D400A14096 /* imtcomputation.cpp */; };
+		F7FDD0C3204347D400A14096 /* isochart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD093204347D400A14096 /* isochart.cpp */; };
+		F7FDD0C4204347D400A14096 /* isochart.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD094204347D400A14096 /* isochart.h */; };
+		F7FDD0C5204347D400A14096 /* isochartconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD095204347D400A14096 /* isochartconfig.h */; };
+		F7FDD0C6204347D400A14096 /* isochartengine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD096204347D400A14096 /* isochartengine.cpp */; };
+		F7FDD0C7204347D400A14096 /* isochartengine.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD097204347D400A14096 /* isochartengine.h */; };
+		F7FDD0C8204347D400A14096 /* isochartmesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD098204347D400A14096 /* isochartmesh.cpp */; };
+		F7FDD0C9204347D400A14096 /* isochartmesh.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD099204347D400A14096 /* isochartmesh.h */; };
+		F7FDD0CA204347D400A14096 /* isochartutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD09A204347D400A14096 /* isochartutil.cpp */; };
+		F7FDD0CB204347D400A14096 /* isochartutil.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD09B204347D400A14096 /* isochartutil.h */; };
+		F7FDD0CC204347D400A14096 /* isomap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD09C204347D400A14096 /* isomap.cpp */; };
+		F7FDD0CD204347D400A14096 /* isomap.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD09D204347D400A14096 /* isomap.h */; };
+		F7FDD0CE204347D400A14096 /* lscmparam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD09E204347D400A14096 /* lscmparam.cpp */; };
+		F7FDD0CF204347D400A14096 /* mergecharts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD09F204347D400A14096 /* mergecharts.cpp */; };
+		F7FDD0D0204347D400A14096 /* meshapplyisomap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD0A0204347D400A14096 /* meshapplyisomap.cpp */; };
+		F7FDD0D1204347D400A14096 /* meshoptimizeboundaries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD0A2204347D400A14096 /* meshoptimizeboundaries.cpp */; };
+		F7FDD0D2204347D400A14096 /* meshoptimizestretch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD0A3204347D400A14096 /* meshoptimizestretch.cpp */; };
+		F7FDD0D3204347D400A14096 /* meshpartitionchart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD0A4204347D400A14096 /* meshpartitionchart.cpp */; };
+		F7FDD0D4204347D400A14096 /* packingcharts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD0A5204347D400A14096 /* packingcharts.cpp */; };
+		F7FDD0D5204347D400A14096 /* progressivemesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD0A6204347D400A14096 /* progressivemesh.cpp */; };
+		F7FDD0D6204347D400A14096 /* progressivemesh.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD0A7204347D400A14096 /* progressivemesh.h */; };
+		F7FDD0D7204347D400A14096 /* sparsematrix.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD0A8204347D400A14096 /* sparsematrix.hpp */; };
+		F7FDD0D8204347D400A14096 /* SymmetricMatrix.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD0A9204347D400A14096 /* SymmetricMatrix.hpp */; };
+		F7FDD0D9204347D400A14096 /* UVAtlas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD0AA204347D400A14096 /* UVAtlas.cpp */; };
+		F7FDD0DA204347D400A14096 /* UVAtlasRepacker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD0AB204347D400A14096 /* UVAtlasRepacker.cpp */; };
+		F7FDD0DB204347D400A14096 /* UVAtlasRepacker.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD0AC204347D400A14096 /* UVAtlasRepacker.h */; };
+		F7FDD0DC204347D400A14096 /* vertiter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD0AD204347D400A14096 /* vertiter.cpp */; };
+		F7FDD0DD204347D400A14096 /* vertiter.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD0AE204347D400A14096 /* vertiter.h */; };
+		F7FDD0DE204347D400A14096 /* Vis_Maxflow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD0AF204347D400A14096 /* Vis_Maxflow.cpp */; };
+		F7FDD0DF204347D400A14096 /* Vis_Maxflow.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD0B0204347D400A14096 /* Vis_Maxflow.h */; };
+		F7FDD0E0204347D400A14096 /* maxheap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD0B1204347D400A14096 /* maxheap.hpp */; };
+		F7FDD0E1204347D400A14096 /* pch.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD0B2204347D400A14096 /* pch.h */; };
+		F7FDD0E320434F5500A14096 /* Compat.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD0E220434F5500A14096 /* Compat.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7FDD0722043477C00A14096 /* libUVAtlas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUVAtlas.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FDD081204347D400A14096 /* ApproximateOneToAll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ApproximateOneToAll.cpp; path = ../UVAtlas/geodesics/ApproximateOneToAll.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD082204347D400A14096 /* ApproximateOneToAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApproximateOneToAll.h; path = ../UVAtlas/geodesics/ApproximateOneToAll.h; sourceTree = SOURCE_ROOT; };
+		F7FDD083204347D400A14096 /* datatypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = datatypes.h; path = ../UVAtlas/geodesics/datatypes.h; sourceTree = SOURCE_ROOT; };
+		F7FDD084204347D400A14096 /* ExactOneToAll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ExactOneToAll.cpp; path = ../UVAtlas/geodesics/ExactOneToAll.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD085204347D400A14096 /* ExactOneToAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExactOneToAll.h; path = ../UVAtlas/geodesics/ExactOneToAll.h; sourceTree = SOURCE_ROOT; };
+		F7FDD086204347D400A14096 /* mathutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mathutils.cpp; path = ../UVAtlas/geodesics/mathutils.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD087204347D400A14096 /* mathutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mathutils.h; path = ../UVAtlas/geodesics/mathutils.h; sourceTree = SOURCE_ROOT; };
+		F7FDD088204347D400A14096 /* minheap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = minheap.hpp; path = ../UVAtlas/geodesics/minheap.hpp; sourceTree = SOURCE_ROOT; };
+		F7FDD08A204347D400A14096 /* UVAtlas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UVAtlas.h; path = ../UVAtlas/inc/UVAtlas.h; sourceTree = SOURCE_ROOT; };
+		F7FDD08C204347D400A14096 /* barycentricparam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = barycentricparam.cpp; path = ../UVAtlas/isochart/barycentricparam.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD08D204347D400A14096 /* basemeshinfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = basemeshinfo.cpp; path = ../UVAtlas/isochart/basemeshinfo.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD08E204347D400A14096 /* basemeshinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = basemeshinfo.h; path = ../UVAtlas/isochart/basemeshinfo.h; sourceTree = SOURCE_ROOT; };
+		F7FDD08F204347D400A14096 /* callbackschemer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = callbackschemer.h; path = ../UVAtlas/isochart/callbackschemer.h; sourceTree = SOURCE_ROOT; };
+		F7FDD090204347D400A14096 /* graphcut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = graphcut.cpp; path = ../UVAtlas/isochart/graphcut.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD091204347D400A14096 /* graphcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graphcut.h; path = ../UVAtlas/isochart/graphcut.h; sourceTree = SOURCE_ROOT; };
+		F7FDD092204347D400A14096 /* imtcomputation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imtcomputation.cpp; path = ../UVAtlas/isochart/imtcomputation.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD093204347D400A14096 /* isochart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = isochart.cpp; path = ../UVAtlas/isochart/isochart.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD094204347D400A14096 /* isochart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = isochart.h; path = ../UVAtlas/isochart/isochart.h; sourceTree = SOURCE_ROOT; };
+		F7FDD095204347D400A14096 /* isochartconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = isochartconfig.h; path = ../UVAtlas/isochart/isochartconfig.h; sourceTree = SOURCE_ROOT; };
+		F7FDD096204347D400A14096 /* isochartengine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = isochartengine.cpp; path = ../UVAtlas/isochart/isochartengine.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD097204347D400A14096 /* isochartengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = isochartengine.h; path = ../UVAtlas/isochart/isochartengine.h; sourceTree = SOURCE_ROOT; };
+		F7FDD098204347D400A14096 /* isochartmesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = isochartmesh.cpp; path = ../UVAtlas/isochart/isochartmesh.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD099204347D400A14096 /* isochartmesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = isochartmesh.h; path = ../UVAtlas/isochart/isochartmesh.h; sourceTree = SOURCE_ROOT; };
+		F7FDD09A204347D400A14096 /* isochartutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = isochartutil.cpp; path = ../UVAtlas/isochart/isochartutil.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD09B204347D400A14096 /* isochartutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = isochartutil.h; path = ../UVAtlas/isochart/isochartutil.h; sourceTree = SOURCE_ROOT; };
+		F7FDD09C204347D400A14096 /* isomap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = isomap.cpp; path = ../UVAtlas/isochart/isomap.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD09D204347D400A14096 /* isomap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = isomap.h; path = ../UVAtlas/isochart/isomap.h; sourceTree = SOURCE_ROOT; };
+		F7FDD09E204347D400A14096 /* lscmparam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lscmparam.cpp; path = ../UVAtlas/isochart/lscmparam.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD09F204347D400A14096 /* mergecharts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mergecharts.cpp; path = ../UVAtlas/isochart/mergecharts.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD0A0204347D400A14096 /* meshapplyisomap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = meshapplyisomap.cpp; path = ../UVAtlas/isochart/meshapplyisomap.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD0A1204347D400A14096 /* meshcommon.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = meshcommon.inl; path = ../UVAtlas/isochart/meshcommon.inl; sourceTree = SOURCE_ROOT; };
+		F7FDD0A2204347D400A14096 /* meshoptimizeboundaries.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = meshoptimizeboundaries.cpp; path = ../UVAtlas/isochart/meshoptimizeboundaries.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD0A3204347D400A14096 /* meshoptimizestretch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = meshoptimizestretch.cpp; path = ../UVAtlas/isochart/meshoptimizestretch.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD0A4204347D400A14096 /* meshpartitionchart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = meshpartitionchart.cpp; path = ../UVAtlas/isochart/meshpartitionchart.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD0A5204347D400A14096 /* packingcharts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = packingcharts.cpp; path = ../UVAtlas/isochart/packingcharts.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD0A6204347D400A14096 /* progressivemesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = progressivemesh.cpp; path = ../UVAtlas/isochart/progressivemesh.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD0A7204347D400A14096 /* progressivemesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = progressivemesh.h; path = ../UVAtlas/isochart/progressivemesh.h; sourceTree = SOURCE_ROOT; };
+		F7FDD0A8204347D400A14096 /* sparsematrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = sparsematrix.hpp; path = ../UVAtlas/isochart/sparsematrix.hpp; sourceTree = SOURCE_ROOT; };
+		F7FDD0A9204347D400A14096 /* SymmetricMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SymmetricMatrix.hpp; path = ../UVAtlas/isochart/SymmetricMatrix.hpp; sourceTree = SOURCE_ROOT; };
+		F7FDD0AA204347D400A14096 /* UVAtlas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UVAtlas.cpp; path = ../UVAtlas/isochart/UVAtlas.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD0AB204347D400A14096 /* UVAtlasRepacker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UVAtlasRepacker.cpp; path = ../UVAtlas/isochart/UVAtlasRepacker.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD0AC204347D400A14096 /* UVAtlasRepacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UVAtlasRepacker.h; path = ../UVAtlas/isochart/UVAtlasRepacker.h; sourceTree = SOURCE_ROOT; };
+		F7FDD0AD204347D400A14096 /* vertiter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vertiter.cpp; path = ../UVAtlas/isochart/vertiter.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD0AE204347D400A14096 /* vertiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vertiter.h; path = ../UVAtlas/isochart/vertiter.h; sourceTree = SOURCE_ROOT; };
+		F7FDD0AF204347D400A14096 /* Vis_Maxflow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vis_Maxflow.cpp; path = ../UVAtlas/isochart/Vis_Maxflow.cpp; sourceTree = SOURCE_ROOT; };
+		F7FDD0B0204347D400A14096 /* Vis_Maxflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vis_Maxflow.h; path = ../UVAtlas/isochart/Vis_Maxflow.h; sourceTree = SOURCE_ROOT; };
+		F7FDD0B1204347D400A14096 /* maxheap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = maxheap.hpp; path = ../UVAtlas/maxheap.hpp; sourceTree = SOURCE_ROOT; };
+		F7FDD0B2204347D400A14096 /* pch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pch.h; path = ../UVAtlas/pch.h; sourceTree = SOURCE_ROOT; };
+		F7FDD0E220434F5500A14096 /* Compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compat.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7FDD06F2043477C00A14096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7FDD0692043477C00A14096 = {
+			isa = PBXGroup;
+			children = (
+				F7FDD0742043477C00A14096 /* UVAtlas */,
+				F7FDD0732043477C00A14096 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7FDD0732043477C00A14096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7FDD0722043477C00A14096 /* libUVAtlas.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7FDD0742043477C00A14096 /* UVAtlas */ = {
+			isa = PBXGroup;
+			children = (
+				F7FDD080204347D400A14096 /* geodesics */,
+				F7FDD089204347D400A14096 /* inc */,
+				F7FDD08B204347D400A14096 /* isochart */,
+				F7FDD0B1204347D400A14096 /* maxheap.hpp */,
+				F7FDD0B2204347D400A14096 /* pch.h */,
+				F7FDD0E220434F5500A14096 /* Compat.h */,
+			);
+			path = UVAtlas;
+			sourceTree = "<group>";
+		};
+		F7FDD080204347D400A14096 /* geodesics */ = {
+			isa = PBXGroup;
+			children = (
+				F7FDD081204347D400A14096 /* ApproximateOneToAll.cpp */,
+				F7FDD082204347D400A14096 /* ApproximateOneToAll.h */,
+				F7FDD083204347D400A14096 /* datatypes.h */,
+				F7FDD084204347D400A14096 /* ExactOneToAll.cpp */,
+				F7FDD085204347D400A14096 /* ExactOneToAll.h */,
+				F7FDD086204347D400A14096 /* mathutils.cpp */,
+				F7FDD087204347D400A14096 /* mathutils.h */,
+				F7FDD088204347D400A14096 /* minheap.hpp */,
+			);
+			name = geodesics;
+			path = ../../UVAtlas/geodesics;
+			sourceTree = "<group>";
+		};
+		F7FDD089204347D400A14096 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				F7FDD08A204347D400A14096 /* UVAtlas.h */,
+			);
+			name = inc;
+			path = ../../UVAtlas/inc;
+			sourceTree = "<group>";
+		};
+		F7FDD08B204347D400A14096 /* isochart */ = {
+			isa = PBXGroup;
+			children = (
+				F7FDD08C204347D400A14096 /* barycentricparam.cpp */,
+				F7FDD08D204347D400A14096 /* basemeshinfo.cpp */,
+				F7FDD08E204347D400A14096 /* basemeshinfo.h */,
+				F7FDD08F204347D400A14096 /* callbackschemer.h */,
+				F7FDD090204347D400A14096 /* graphcut.cpp */,
+				F7FDD091204347D400A14096 /* graphcut.h */,
+				F7FDD092204347D400A14096 /* imtcomputation.cpp */,
+				F7FDD093204347D400A14096 /* isochart.cpp */,
+				F7FDD094204347D400A14096 /* isochart.h */,
+				F7FDD095204347D400A14096 /* isochartconfig.h */,
+				F7FDD096204347D400A14096 /* isochartengine.cpp */,
+				F7FDD097204347D400A14096 /* isochartengine.h */,
+				F7FDD098204347D400A14096 /* isochartmesh.cpp */,
+				F7FDD099204347D400A14096 /* isochartmesh.h */,
+				F7FDD09A204347D400A14096 /* isochartutil.cpp */,
+				F7FDD09B204347D400A14096 /* isochartutil.h */,
+				F7FDD09C204347D400A14096 /* isomap.cpp */,
+				F7FDD09D204347D400A14096 /* isomap.h */,
+				F7FDD09E204347D400A14096 /* lscmparam.cpp */,
+				F7FDD09F204347D400A14096 /* mergecharts.cpp */,
+				F7FDD0A0204347D400A14096 /* meshapplyisomap.cpp */,
+				F7FDD0A1204347D400A14096 /* meshcommon.inl */,
+				F7FDD0A2204347D400A14096 /* meshoptimizeboundaries.cpp */,
+				F7FDD0A3204347D400A14096 /* meshoptimizestretch.cpp */,
+				F7FDD0A4204347D400A14096 /* meshpartitionchart.cpp */,
+				F7FDD0A5204347D400A14096 /* packingcharts.cpp */,
+				F7FDD0A6204347D400A14096 /* progressivemesh.cpp */,
+				F7FDD0A7204347D400A14096 /* progressivemesh.h */,
+				F7FDD0A8204347D400A14096 /* sparsematrix.hpp */,
+				F7FDD0A9204347D400A14096 /* SymmetricMatrix.hpp */,
+				F7FDD0AA204347D400A14096 /* UVAtlas.cpp */,
+				F7FDD0AB204347D400A14096 /* UVAtlasRepacker.cpp */,
+				F7FDD0AC204347D400A14096 /* UVAtlasRepacker.h */,
+				F7FDD0AD204347D400A14096 /* vertiter.cpp */,
+				F7FDD0AE204347D400A14096 /* vertiter.h */,
+				F7FDD0AF204347D400A14096 /* Vis_Maxflow.cpp */,
+				F7FDD0B0204347D400A14096 /* Vis_Maxflow.h */,
+			);
+			name = isochart;
+			path = ../../UVAtlas/isochart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F7FDD0702043477C00A14096 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FDD0B5204347D400A14096 /* datatypes.h in Headers */,
+				F7FDD0C1204347D400A14096 /* graphcut.h in Headers */,
+				F7FDD0BE204347D400A14096 /* basemeshinfo.h in Headers */,
+				F7FDD0E1204347D400A14096 /* pch.h in Headers */,
+				F7FDD0B4204347D400A14096 /* ApproximateOneToAll.h in Headers */,
+				F7FDD0C9204347D400A14096 /* isochartmesh.h in Headers */,
+				F7FDD0BF204347D400A14096 /* callbackschemer.h in Headers */,
+				F7FDD0C4204347D400A14096 /* isochart.h in Headers */,
+				F7FDD0D8204347D400A14096 /* SymmetricMatrix.hpp in Headers */,
+				F7FDD0B9204347D400A14096 /* mathutils.h in Headers */,
+				F7FDD0B7204347D400A14096 /* ExactOneToAll.h in Headers */,
+				F7FDD0DB204347D400A14096 /* UVAtlasRepacker.h in Headers */,
+				F7FDD0C7204347D400A14096 /* isochartengine.h in Headers */,
+				F7FDD0D7204347D400A14096 /* sparsematrix.hpp in Headers */,
+				F7FDD0DF204347D400A14096 /* Vis_Maxflow.h in Headers */,
+				F7FDD0C5204347D400A14096 /* isochartconfig.h in Headers */,
+				F7FDD0BA204347D400A14096 /* minheap.hpp in Headers */,
+				F7FDD0E320434F5500A14096 /* Compat.h in Headers */,
+				F7FDD0D6204347D400A14096 /* progressivemesh.h in Headers */,
+				F7FDD0DD204347D400A14096 /* vertiter.h in Headers */,
+				F7FDD0BB204347D400A14096 /* UVAtlas.h in Headers */,
+				F7FDD0E0204347D400A14096 /* maxheap.hpp in Headers */,
+				F7FDD0CB204347D400A14096 /* isochartutil.h in Headers */,
+				F7FDD0CD204347D400A14096 /* isomap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F7FDD0712043477C00A14096 /* UVAtlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7FDD07D2043477C00A14096 /* Build configuration list for PBXNativeTarget "UVAtlas" */;
+			buildPhases = (
+				F7FDD06E2043477C00A14096 /* Sources */,
+				F7FDD06F2043477C00A14096 /* Frameworks */,
+				F7FDD0702043477C00A14096 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UVAtlas;
+			productName = UVAtlas;
+			productReference = F7FDD0722043477C00A14096 /* libUVAtlas.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7FDD06A2043477C00A14096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hel Games";
+				TargetAttributes = {
+					F7FDD0712043477C00A14096 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A44PXF4X6Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F7FDD06D2043477C00A14096 /* Build configuration list for PBXProject "UVAtlas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7FDD0692043477C00A14096;
+			productRefGroup = F7FDD0732043477C00A14096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7FDD0712043477C00A14096 /* UVAtlas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7FDD06E2043477C00A14096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FDD0D0204347D400A14096 /* meshapplyisomap.cpp in Sources */,
+				F7FDD0C2204347D400A14096 /* imtcomputation.cpp in Sources */,
+				F7FDD0B3204347D400A14096 /* ApproximateOneToAll.cpp in Sources */,
+				F7FDD0C6204347D400A14096 /* isochartengine.cpp in Sources */,
+				F7FDD0D9204347D400A14096 /* UVAtlas.cpp in Sources */,
+				F7FDD0DA204347D400A14096 /* UVAtlasRepacker.cpp in Sources */,
+				F7FDD0B8204347D400A14096 /* mathutils.cpp in Sources */,
+				F7FDD0CF204347D400A14096 /* mergecharts.cpp in Sources */,
+				F7FDD0CC204347D400A14096 /* isomap.cpp in Sources */,
+				F7FDD0D5204347D400A14096 /* progressivemesh.cpp in Sources */,
+				F7FDD0C3204347D400A14096 /* isochart.cpp in Sources */,
+				F7FDD0DE204347D400A14096 /* Vis_Maxflow.cpp in Sources */,
+				F7FDD0D3204347D400A14096 /* meshpartitionchart.cpp in Sources */,
+				F7FDD0B6204347D400A14096 /* ExactOneToAll.cpp in Sources */,
+				F7FDD0C8204347D400A14096 /* isochartmesh.cpp in Sources */,
+				F7FDD0D4204347D400A14096 /* packingcharts.cpp in Sources */,
+				F7FDD0CA204347D400A14096 /* isochartutil.cpp in Sources */,
+				F7FDD0C0204347D400A14096 /* graphcut.cpp in Sources */,
+				F7FDD0DC204347D400A14096 /* vertiter.cpp in Sources */,
+				F7FDD0D2204347D400A14096 /* meshoptimizestretch.cpp in Sources */,
+				F7FDD0BC204347D400A14096 /* barycentricparam.cpp in Sources */,
+				F7FDD0CE204347D400A14096 /* lscmparam.cpp in Sources */,
+				F7FDD0BD204347D400A14096 /* basemeshinfo.cpp in Sources */,
+				F7FDD0D1204347D400A14096 /* meshoptimizeboundaries.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7FDD07B2043477C00A14096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../UVAtlas";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F7FDD07C2043477C00A14096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../UVAtlas";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F7FDD07E2043477C00A14096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A44PXF4X6Z;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7FDD07F2043477C00A14096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A44PXF4X6Z;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7FDD06D2043477C00A14096 /* Build configuration list for PBXProject "UVAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7FDD07B2043477C00A14096 /* Debug */,
+				F7FDD07C2043477C00A14096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7FDD07D2043477C00A14096 /* Build configuration list for PBXNativeTarget "UVAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7FDD07E2043477C00A14096 /* Debug */,
+				F7FDD07F2043477C00A14096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7FDD06A2043477C00A14096 /* Project object */;
+}
