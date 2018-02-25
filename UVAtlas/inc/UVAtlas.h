@@ -11,15 +11,19 @@
 
 #include <stdint.h>
 
-#if defined(_XBOX_ONE) && defined(_TITLE)
-#include <d3d11_x.h>
-#define DCOMMON_H_INCLUDED
-#else
-#include <windows.h>
-#include <dxgiformat.h>
-#endif
+#ifdef PLATFORM_WIN
+    #if defined(_XBOX_ONE) && defined(_TITLE)
+    #include <d3d11_x.h>
+    #define DCOMMON_H_INCLUDED
+    #else
+    #include <windows.h>
+    #include <dxgiformat.h>
+    #endif
 
-#include <DirectXMath.h>
+    #include <DirectXMath.h>
+#else
+    #include "Compat.h"
+#endif
 
 #include <functional>
 #include <vector>

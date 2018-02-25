@@ -50,8 +50,12 @@
 #define NOHELP
 #pragma warning(pop)
 
-#include <windows.h>
-#include <objbase.h>
+#ifdef PLATFORM_WIN
+    #include <windows.h>
+    #include <objbase.h>
+#else
+    #include "Compat.h"
+#endif
 
 #include <assert.h>
 
@@ -70,7 +74,9 @@
 #include <vector>
 #include <queue>
 
-#include <DirectXMath.h>
+#ifdef PLATFORM_WIN
+    #include <DirectXMath.h>
+#endif
 
 #include "UVAtlas.h"
 

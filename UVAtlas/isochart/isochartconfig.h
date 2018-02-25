@@ -8,6 +8,9 @@
 //-------------------------------------------------------------------------------------
 
 #pragma once
+#ifndef PLATFORM_WIN
+#include "Compat.h"
+#endif
 
 namespace Isochart
 {
