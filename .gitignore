@@ -25,3 +25,7 @@ Release
 x64
 /Tests
 /wiki
+.DS_Store
+DerivedData
+xcuserdata
+project.xcworkspace
