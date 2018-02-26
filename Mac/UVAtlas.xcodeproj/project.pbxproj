@@ -491,6 +491,7 @@
 				GCC_ENABLE_CPP_RTTI = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../UVAtlas",
+					"$(PROJECT_DIR)/../DirectXSDK/Include",
 					"$(PROJECT_DIR)/../DirectXMath/Inc",
 					"$(PROJECT_DIR)/UVAtlas/Include",
 				);
@@ -507,6 +508,7 @@
 				GCC_ENABLE_CPP_RTTI = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../UVAtlas",
+					"$(PROJECT_DIR)/../DirectXSDK/Include",
 					"$(PROJECT_DIR)/../DirectXMath/Inc",
 					"$(PROJECT_DIR)/UVAtlas/Include",
 				);

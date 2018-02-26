@@ -44,12 +44,10 @@ float __min(float lhs, float rhs) { return fmin(lhs, rhs); }
 
 // DirectX
 #define DWORD int
-#define DXGI_FORMAT int
-#define DXGI_FORMAT_R16_UINT 1
-#define DXGI_FORMAT_R32_UINT 2
+#include <dxgiformat.h>
 
 #define _XM_NO_INTRINSICS_
-#include "DirectXMath.h"
+#include <DirectXMath.h>
 
 namespace DirectX
 {
