@@ -40,7 +40,7 @@
 #define UNREFERENCED_PARAMETER(x)
 float __min(float lhs, float rhs) { return fmin(lhs, rhs); }
 #define _Analysis_assume_(x)
-#define _finite(x) x
+#define _finite(x) x != INFINITY
 
 // DirectX
 #define DWORD int
