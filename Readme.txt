@@ -9,6 +9,8 @@ February 7, 2018
 This package contains UVAtlas, a shared source library for creating and packing an
 isochart texture atlas.
 
+This fork is a quick-and-dirty macOS port, so a static library can be built using Xcode.
+
 This code is designed to build with Visual Studio 2013 Update 5, Visual Studio 2015 Update 3,
 or Visual Studio 2017. It is recommended that you make use of VS 2015 Update 3, Windows Tools
 1.4.1, and the Windows 10 Anniversary Update SDK (14393) or VS 2017 (15.5 update) with the
@@ -92,7 +94,7 @@ December 13, 2017
 
 November 1, 2017
     VS 2017 updated for Windows 10 Fall Creators Update SDK (16299)
-    Removed UVAtlas_2017.vcxproj as redundant in favor of UVAtlas_2017_Win10.vcxproj 
+    Removed UVAtlas_2017.vcxproj as redundant in favor of UVAtlas_2017_Win10.vcxproj
 
 September 22, 2017
     Updated for VS 2017 15.3 update /permissive- changes
