@@ -1504,8 +1504,8 @@ HRESULT CIsochartMesh::ProcessPlaneLikeShape(
                     m_pVerts[vId2].uv.x = fLen2*x + m_pVerts[vId0].uv.x;
                     m_pVerts[vId2].uv.y = fLen2*y + m_pVerts[vId0].uv.y;
 
-                    assert(_finite(m_pVerts[vId2].uv.x) != 0 &&
-                        _finite(m_pVerts[vId2].uv.y) != 0);
+                    //assert(_finite(m_pVerts[vId2].uv.x) != 0 &&
+                    //    _finite(m_pVerts[vId2].uv.y) != 0);
 
                     if (_finite(m_pVerts[vId2].uv.x) == 0 ||
                         _finite(m_pVerts[vId2].uv.y) == 0)
