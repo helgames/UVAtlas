@@ -9,7 +9,7 @@
 
 #pragma once
 #ifndef PLATFORM_WIN
-#include "Compat.h"
+#include "wincompat.h"
 #endif
 
 namespace Isochart

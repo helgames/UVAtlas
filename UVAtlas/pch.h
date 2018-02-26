@@ -54,7 +54,7 @@
     #include <windows.h>
     #include <objbase.h>
 #else
-    #include "Compat.h"
+    #include "wincompat.h"
 #endif
 
 #include <assert.h>

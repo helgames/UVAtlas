@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F708EC1220444E0D000047B5 /* DirectXCollision.h in Headers */ = {isa = PBXBuildFile; fileRef = F708EC0820444E0D000047B5 /* DirectXCollision.h */; };
+		F708EC1320444E0D000047B5 /* DirectXMath.h in Headers */ = {isa = PBXBuildFile; fileRef = F708EC0A20444E0D000047B5 /* DirectXMath.h */; };
+		F708EC1420444E0D000047B5 /* DirectXColors.h in Headers */ = {isa = PBXBuildFile; fileRef = F708EC0C20444E0D000047B5 /* DirectXColors.h */; };
+		F708EC1520444E0D000047B5 /* DirectXPackedVector.h in Headers */ = {isa = PBXBuildFile; fileRef = F708EC0D20444E0D000047B5 /* DirectXPackedVector.h */; };
 		F7FDD0B3204347D400A14096 /* ApproximateOneToAll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FDD081204347D400A14096 /* ApproximateOneToAll.cpp */; };
 		F7FDD0B4204347D400A14096 /* ApproximateOneToAll.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD082204347D400A14096 /* ApproximateOneToAll.h */; };
 		F7FDD0B5204347D400A14096 /* datatypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD083204347D400A14096 /* datatypes.h */; };
@@ -54,10 +58,22 @@
 		F7FDD0DF204347D400A14096 /* Vis_Maxflow.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD0B0204347D400A14096 /* Vis_Maxflow.h */; };
 		F7FDD0E0204347D400A14096 /* maxheap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD0B1204347D400A14096 /* maxheap.hpp */; };
 		F7FDD0E1204347D400A14096 /* pch.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD0B2204347D400A14096 /* pch.h */; };
-		F7FDD0E320434F5500A14096 /* Compat.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD0E220434F5500A14096 /* Compat.h */; };
+		F7FDD0E320434F5500A14096 /* wincompat.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD0E220434F5500A14096 /* wincompat.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F708EC0820444E0D000047B5 /* DirectXCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DirectXCollision.h; path = ../Inc/DirectXCollision.h; sourceTree = "<group>"; };
+		F708EC0920444E0D000047B5 /* DirectXMathMisc.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DirectXMathMisc.inl; path = ../Inc/DirectXMathMisc.inl; sourceTree = "<group>"; };
+		F708EC0A20444E0D000047B5 /* DirectXMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DirectXMath.h; path = ../Inc/DirectXMath.h; sourceTree = "<group>"; };
+		F708EC0B20444E0D000047B5 /* DirectXCollision.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DirectXCollision.inl; path = ../Inc/DirectXCollision.inl; sourceTree = "<group>"; };
+		F708EC0C20444E0D000047B5 /* DirectXColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DirectXColors.h; path = ../Inc/DirectXColors.h; sourceTree = "<group>"; };
+		F708EC0D20444E0D000047B5 /* DirectXPackedVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DirectXPackedVector.h; path = ../Inc/DirectXPackedVector.h; sourceTree = "<group>"; };
+		F708EC0E20444E0D000047B5 /* DirectXMathVector.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DirectXMathVector.inl; path = ../Inc/DirectXMathVector.inl; sourceTree = "<group>"; };
+		F708EC0F20444E0D000047B5 /* DirectXMathConvert.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DirectXMathConvert.inl; path = ../Inc/DirectXMathConvert.inl; sourceTree = "<group>"; };
+		F708EC1020444E0D000047B5 /* DirectXPackedVector.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DirectXPackedVector.inl; path = ../Inc/DirectXPackedVector.inl; sourceTree = "<group>"; };
+		F708EC1120444E0D000047B5 /* DirectXMathMatrix.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DirectXMathMatrix.inl; path = ../Inc/DirectXMathMatrix.inl; sourceTree = "<group>"; };
+		F708EC1620444F89000047B5 /* sal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sal.h; sourceTree = "<group>"; };
+		F708EC17204455E8000047B5 /* malloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = malloc.h; sourceTree = "<group>"; };
 		F7FDD0722043477C00A14096 /* libUVAtlas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUVAtlas.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FDD081204347D400A14096 /* ApproximateOneToAll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ApproximateOneToAll.cpp; path = ../UVAtlas/geodesics/ApproximateOneToAll.cpp; sourceTree = SOURCE_ROOT; };
 		F7FDD082204347D400A14096 /* ApproximateOneToAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApproximateOneToAll.h; path = ../UVAtlas/geodesics/ApproximateOneToAll.h; sourceTree = SOURCE_ROOT; };
@@ -107,7 +123,7 @@
 		F7FDD0B0204347D400A14096 /* Vis_Maxflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vis_Maxflow.h; path = ../UVAtlas/isochart/Vis_Maxflow.h; sourceTree = SOURCE_ROOT; };
 		F7FDD0B1204347D400A14096 /* maxheap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = maxheap.hpp; path = ../UVAtlas/maxheap.hpp; sourceTree = SOURCE_ROOT; };
 		F7FDD0B2204347D400A14096 /* pch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pch.h; path = ../UVAtlas/pch.h; sourceTree = SOURCE_ROOT; };
-		F7FDD0E220434F5500A14096 /* Compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compat.h; sourceTree = "<group>"; };
+		F7FDD0E220434F5500A14096 /* wincompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wincompat.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +137,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F708EBFD20444D47000047B5 /* DirectXMath */ = {
+			isa = PBXGroup;
+			children = (
+				F708EC0820444E0D000047B5 /* DirectXCollision.h */,
+				F708EC0B20444E0D000047B5 /* DirectXCollision.inl */,
+				F708EC0C20444E0D000047B5 /* DirectXColors.h */,
+				F708EC0A20444E0D000047B5 /* DirectXMath.h */,
+				F708EC0F20444E0D000047B5 /* DirectXMathConvert.inl */,
+				F708EC1120444E0D000047B5 /* DirectXMathMatrix.inl */,
+				F708EC0920444E0D000047B5 /* DirectXMathMisc.inl */,
+				F708EC0E20444E0D000047B5 /* DirectXMathVector.inl */,
+				F708EC0D20444E0D000047B5 /* DirectXPackedVector.h */,
+				F708EC1020444E0D000047B5 /* DirectXPackedVector.inl */,
+			);
+			name = DirectXMath;
+			path = ../DirectXMath/DirectXMath;
+			sourceTree = SOURCE_ROOT;
+		};
+		F708EC18204455F1000047B5 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				F708EC1620444F89000047B5 /* sal.h */,
+				F708EC17204455E8000047B5 /* malloc.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
 		F7FDD0692043477C00A14096 = {
 			isa = PBXGroup;
 			children = (
+				F708EBFD20444D47000047B5 /* DirectXMath */,
 				F7FDD0742043477C00A14096 /* UVAtlas */,
 				F7FDD0732043477C00A14096 /* Products */,
 			);
@@ -140,12 +184,13 @@
 		F7FDD0742043477C00A14096 /* UVAtlas */ = {
 			isa = PBXGroup;
 			children = (
+				F708EC18204455F1000047B5 /* Include */,
 				F7FDD080204347D400A14096 /* geodesics */,
 				F7FDD089204347D400A14096 /* inc */,
 				F7FDD08B204347D400A14096 /* isochart */,
 				F7FDD0B1204347D400A14096 /* maxheap.hpp */,
 				F7FDD0B2204347D400A14096 /* pch.h */,
-				F7FDD0E220434F5500A14096 /* Compat.h */,
+				F7FDD0E220434F5500A14096 /* wincompat.h */,
 			);
 			path = UVAtlas;
 			sourceTree = "<group>";
@@ -244,13 +289,17 @@
 				F7FDD0DF204347D400A14096 /* Vis_Maxflow.h in Headers */,
 				F7FDD0C5204347D400A14096 /* isochartconfig.h in Headers */,
 				F7FDD0BA204347D400A14096 /* minheap.hpp in Headers */,
-				F7FDD0E320434F5500A14096 /* Compat.h in Headers */,
+				F708EC1520444E0D000047B5 /* DirectXPackedVector.h in Headers */,
+				F708EC1420444E0D000047B5 /* DirectXColors.h in Headers */,
+				F7FDD0E320434F5500A14096 /* wincompat.h in Headers */,
 				F7FDD0D6204347D400A14096 /* progressivemesh.h in Headers */,
 				F7FDD0DD204347D400A14096 /* vertiter.h in Headers */,
 				F7FDD0BB204347D400A14096 /* UVAtlas.h in Headers */,
 				F7FDD0E0204347D400A14096 /* maxheap.hpp in Headers */,
 				F7FDD0CB204347D400A14096 /* isochartutil.h in Headers */,
 				F7FDD0CD204347D400A14096 /* isomap.h in Headers */,
+				F708EC1320444E0D000047B5 /* DirectXMath.h in Headers */,
+				F708EC1220444E0D000047B5 /* DirectXCollision.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +489,11 @@
 				EXECUTABLE_PREFIX = lib;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../UVAtlas",
+					"$(PROJECT_DIR)/../DirectXMath/Inc",
+					"$(PROJECT_DIR)/UVAtlas/Include",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -451,6 +505,11 @@
 				EXECUTABLE_PREFIX = lib;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../UVAtlas",
+					"$(PROJECT_DIR)/../DirectXMath/Inc",
+					"$(PROJECT_DIR)/UVAtlas/Include",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

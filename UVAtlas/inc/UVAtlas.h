@@ -22,7 +22,7 @@
 
     #include <DirectXMath.h>
 #else
-    #include "Compat.h"
+    #include "wincompat.h"
 #endif
 
 #include <functional>
